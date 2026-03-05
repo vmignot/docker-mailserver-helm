@@ -225,6 +225,7 @@ deployment:
     #RELAY_PASSWORD:
 
   securityContext:
+    runAsNonRoot: true
     runAsUser: 5000
     runAsGroup: 5000
 
